@@ -1,0 +1,129 @@
+
+
+body{
+    background-color: rgb(31, 31, 126);
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../currículo/imagens/fundo_do_site.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.foto {
+    text-align: center;
+}
+.foto img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid rgb(249, 249, 252);
+    border-radius: 40%;
+    transition: 0.3s;
+    padding: 0.5%;
+    margin:2%;
+}
+
+.foto img:hover {
+    transform: scale(1.05);
+    border-color: rgb(235, 235, 235);
+    box-shadow: 0 0 15px rgb(8,8,108);
+}
+.lopes { 
+    text-align: center; 
+    background-color: aliceblue; 
+    padding: 2%;  
+    border-radius:5% ; 
+    font-size: 60px;
+    text-align: center;
+    background-color: aliceblue;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    border: 3px solid black;
+    color: rgb(18, 18, 134);
+    font-size: 60px;
+}
+.textos{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5%;
+    border: 4px solid black;
+}
+.textos p{
+   
+    width: 700px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+}
+.Sobremim{
+   
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5%;
+   
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    padding: 10px;
+    font-size: 40px;
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    border: 4px solid black;
+
+}
+.certificado{
+    text-align: center; 
+    background-color: aliceblue; 
+    padding: 1%;  
+    border-radius:5% ; 
+    font-size: 60px;
+    text-align: center;
+    background-color: aliceblue;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    border: 3px solid black;
+    color: rgb(18, 18, 134);
+    font-size: 60px;
+}
+.contatos{
+text-align: center; background-color: aliceblue; padding: 1%;  border-radius:5% ; font-size: 60px;
+text-align: center;
+background-color: aliceblue;
+display: block;
+font-family: 'Montserrat', sans-serif;
+border-radius: 20px;   
+color: rgb(18, 18, 134);
+font-size: 60px;
+}
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.contato img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+
+    transition: 0.3s;
+}
+
+.contato img:hover {
+    transform: translateY(-5px) scale(1.1);
+    filter: drop-shadow(0 0 8px #f6f6f6);
+}
