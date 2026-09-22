@@ -139,7 +139,8 @@ table {
     body {
         padding: 0 10px;
         background-attachment: scroll;
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
     hr{
         max-width: 100%;
